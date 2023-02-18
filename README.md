@@ -19,8 +19,8 @@ g++ -std=c++23 -O2 -Wall -pedantic -pthread GBAImportTool.cpp -o GBAImportTool
 ## 具体操作步骤：
 1. 把需要添加的所有游戏资源（ROM和封面，简介图片，联机教程图片）按照如下要求放入titles文件夹新建游戏ROM文件夹里，规则为：
 
-···
-gbaTools
+```
+GBAImportTool
 ├── GBAImportTool.exe #Windows主程序
 ├── Readme.md         #说明文件
 ├── gb                #gb/gbc工作目录，参考模板目录结构
@@ -100,7 +100,7 @@ gbaTools
                     ├── ONECARTRIDGE_GUIDE_02_A-1314_j.png
                     ├── ONECARTRIDGE_GUIDE_03_A-1314_j.png
                     └── ONECARTRIDGE_GUIDE_04_A-1314_j.png
-···
+```
 
 游戏ID可以参考：[GBA官方游戏全集](https://www.oldmanemu.net/%e6%8e%8c%e6%9c%ba%e6%b8%b8%e6%88%8f/gba/gba%e5%ae%98%e6%96%b9%e6%b8%b8%e6%88%8f%e5%85%a8%e9%9b%86)
 GBA游戏信息，包括封面，简介等文字和图片信息参考：[GBA Game DB](https://indienova.com/gamedb/platform/gba/p/1)
