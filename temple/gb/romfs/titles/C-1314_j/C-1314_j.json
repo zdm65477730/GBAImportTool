@@ -1,0 +1,29 @@
+{
+	"titles": {
+		"CGB-Default": "None",
+		"CGB-Nostalgic": "None",
+		"copyright": "©1980-1984,1997-1999 Nintendo",
+		"emu_option": "sh3",
+		"lcla6_release_date": "2023-02-01",
+		"platform": "CGB",
+		"players_count": 1,
+		"publisher": "任天堂",
+		"release_date": "2001-07-21",
+		"rewind_interval": 1.5,
+		"save_count": 1,
+		"sort_publisher": "任天堂",
+		"sort_title": "任天堂游戏",
+		"title": "任天堂ゲーム",
+		"title_zhHans": "任天堂游戏",
+		"title_zhHant": "任天堂遊戲",
+		"volume": 100
+	},
+	"strings": {
+		"META_TITLE_COMMENT_JA": "ゲーム紹介。",
+		"META_TITLE_COMMENT_SC": "游戏简介。",
+		"META_TITLE_COMMENT_TC": "遊戲簡介。",
+		"META_TITLE_CONNECT_GUIDE_01_JA": "ステップ1",
+		"META_TITLE_CONNECT_GUIDE_01_SC": "步骤1",
+		"META_TITLE_CONNECT_GUIDE_01_TC": "步驟1"
+	}
+}

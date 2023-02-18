@@ -1,0 +1,2660 @@
+{
+	"strings": {
+		"SYS_DIALOG_GENERIC_BUTTON1": "",
+		"SYS_DIALOG_GENERIC_BUTTON2": "",
+		"SYS_DIALOG_GENERIC_BUTTON3": "",
+		"SYS_DIALOG_GENERIC_ITEM_OK": "確定",
+		"SYS_DIALOG_GENERIC_ITEM_YES": "是",
+		"SYS_DIALOG_GENERIC_ITEM_NO": "否",
+		"SYS_DIALOG_GENERIC_ITEM_CANCEL": "退出",
+		"SYS_DIALOG_GENERIC_ITEM_INVITE": "邀請朋友",
+		"SYS_DIALOG_GENERIC_ITEM_LATER": "稍後",
+		"SYS_DIALOG_SAVE_CONFIRMATION_TEXT": "是否要覆寫？",
+		"SYS_DIALOG_SAVE_PROCESSING_TEXT": "正在儲存",
+		"SYS_DIALOG_SAVE_COMPLETED_TEXT": "已經儲存。",
+		"SYS_DIALOG_SAVE_FAILED_TEXT": "儲存失敗。",
+		"SYS_DIALOG_EXCHANGE_PLAYER_1P_TEXT": "已經更換1P與2P。\n您成為了1P。\n選單將由繼續操作。",
+		"SYS_DIALOG_EXCHANGE_PLAYER_2P_TEXT": "已經更換1P與2P。\n您成為了2P。\n選單將由繼續操作。",
+		"SYS_DIALOG_NETPLAY_TO_SWAP_TEXT": "請選擇要設定為1P的人。",
+		"SYS_DIALOG_SWAP_PLAYER_TEXT": "成為了1P。\n選單將由繼續操作。",
+		"SYS_DIALOG_SWAP_PLAYER_TEXT_LONG": "成為了1P。\n您成為了P。\n選單將由繼續操作。",
+		"SYS_DIALOG_ONLINE_CONTROLLER_TEXT": "可以在線上使用的控制器為1個。\n是否要繼續？",
+		"SYS_DIALOG_WIRELESS_CONTROLLER_TEXT": "可以在鄰近主機通訊使用的控制器為1個。\n是否要繼續？",
+		"SYS_DIALOG_ONLINE_CONNECTING_TEXT": "正在連接網路。",
+		"SYS_DIALOG_WIRELESS_CONNECTING_SHORT_TEXT": "正在準備。",
+		"SYS_DIALOG_ONLINE_SEARCHING_TEXT": "正在尋找在等待的朋友。",
+		"SYS_DIALOG_WIRELESS_SEARCHING_TEXT": "正在尋找在等待的人員。",
+		"SYS_DIALOG_ONLINE_CREATE_SESSION_TEXT": "是否要設定暗號？\n只有知道暗號的朋友可以一起遊玩。",
+		"SYS_DIALOG_WIRELESS_CREATE_SESSION_TEXT": "是否要設定暗號？\n只有知道暗號的人員可以一起遊玩。",
+		"SYS_DIALOG_ONLINE_CREATE_SESSION_WITHOUT_PASSWORD": "沒有暗號",
+		"SYS_DIALOG_ONLINE_CREATE_SESSION_WITH_PASSWORD": " 有暗號",
+		"SYS_DIALOG_ONLINE_CREATING_SESSION_TEXT": "正在準備線上遊玩。",
+		"SYS_DIALOG_WIRELESS_CREATING_SESSION_SHORT_TEXT": "正在準備。",
+		"SYS_DIALOG_ONLINE_CREATED_SESSION_TEXT": "朋友來會合便會通知。\n您可在等待的同時遊玩。",
+		"SYS_DIALOG_WIRELESS_CREATED_SESSION_TEXT": "人員來會合便會通知。\n您可在等待的同時遊玩。",
+		"SYS_DIALOG_ONLINE_CREATED_SESSION_TEXT_INVITE": "要立刻邀請朋友嗎？\n如果選擇稍後，可在左側選單邀請。",
+		"SYS_DIALOG_ONLINE_PASSWORD_MISMATCH_TEXT": "暗號錯誤。",
+		"SYS_DIALOG_ONLINE_FAILED_TO_JOIN_TEXT": "與朋友會合失敗。",
+		"SYS_DIALOG_WIRELESS_FAILED_TO_JOIN_TEXT": "會合失敗。",
+		"SYS_DIALOG_ONLINE_WAITING_FOR_GUEST_TEXT": "正在與會合。",
+		"SYS_DIALOG_ONLINE_WAITING_FOR_HOST_TEXT": "正在與會合。\n（不會更改您的儲存資料）",
+		"SYS_DIALOG_ONLINE_WAITING_FOR_HOST_USESRAM_TEXT": "正在與會合。",
+		"SYS_DIALOG_ONLINE_ESTABLISHED_HOST_TEXT": "過來遊玩了。\n選單將由操作。\n通訊品質依據您與對方的通訊環境而定。",
+		"SYS_DIALOG_ONLINE_ESTABLISHED_GUEST_TEXT": "您來到的地方遊玩。\n選單將由操作。\n通訊品質依據您與對方的通訊環境而定。",
+		"SYS_DIALOG_QUIT_ONLINE_PLAY_TEXT": "將退出線上遊玩。\n是否確定？",
+		"SYS_DIALOG_QUIT_WIRELESS_PLAY_TEXT": "將退出鄰近主機通訊。\n是否確定？",
+		"SYS_DIALOG_DURING_GUEST_OPERATION_TEXT": "正在操作。",
+		"SYS_DIALOG_DURING_HOST_OPERATION_TEXT": "正在操作。",
+		"SYS_DIALOG_LEAVING_ONLINE_PLAY_TEXT": "正在結束線上遊玩。",
+		"SYS_DIALOG_LEAVING_WIRELESS_PLAY_TEXT": "正在結束鄰近主機通訊。",
+		"SYS_DIALOG_NEW_ARRIVAL_INFORMATION_TEXT": "新增了作品。",
+		"SYS_DIALOG_ERROR_EMULATOR_CRASHED_TEXT": "遊戲中發生了錯誤。",
+		"SYS_DIALOG_ONLINE_PAUSE_ON_DISCONNECT_TEXT": "已經切斷通訊。\n遊戲將無法繼續。\n只允許隨時隨地儲存。",
+		"SYS_DIALOG_ONLINE_TITLE_PROHIBITED_TEXT": "無法選擇此作品。",
+		"SYS_DIALOG_ONLINE_OVERCROWDING_TEXT": "本作品為雙打專用。\n兩人遊玩時才能選擇。",
+		"SYS_DIALOG_LAUNCHING_ANOTHER_ONE": "的主機要啟動其他作品。\n（請操作）",
+		"SYS_DIALOG_LAUNCHING_OTHERS_ONE": "的主機要啟動哪個作品？\n（請操作）",
+		"SYS_DIALOG_LAUNCHING_OTHERS": "之外的主機要啟動哪個作品？\n（請操作）",
+		"SYS_HUD_GUIDE_PRO_CONFIRM": "  確定",
+		"SYS_HUD_GUIDE_PRO_BACK": "  返回",
+		"SYS_HUD_GUIDE_PRO_DETAILS": "  詳情",
+		"SYS_HUD_GUIDE_PRO_MOVE": "  移動",
+		"SYS_HUD_GUIDE_PRO_MOVE2": "  移動（長按則排序）",
+		"SYS_HUD_GUIDE_PRO_SORT": "  長按則排序",
+		"SYS_HUD_GUIDE_PRO_PLAY": "  開始",
+		"SYS_HUD_GUIDE_PRO_GUIDE": "  操作指南",
+		"SYS_HUD_GUIDE_PRO_EXCHANGE": "  更換1P/2P",
+		"SYS_HUD_GUIDE_PRO_SWAP": "  更換1P",
+		"SYS_HUD_GUIDE_PRO_VOICE_CHAT": "  如何語音聊天？",
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE": " +   中斷選單",
+		"SYS_HUD_GUIDE_PRO_INGAME_START": "  START鍵",
+		"SYS_HUD_GUIDE_PRO_INGAME_SELECT": "  SELECT鍵",
+		"SYS_HUD_GUIDE_PRO_INGAME_QUIT_ONLINE": " +   退出線上遊玩",
+		"SYS_HUD_GUIDE_PRO_INGAME_QUIT_WIRELESS": " +   退出鄰近主機通訊",
+		"SYS_HUD_GUIDE_PRO_DETAILES_NEXT": "  繼續",
+		"SYS_HUD_GUIDE_PRO_COMMIT": "  確定",
+		"SYS_HUD_GUIDE_PRO_CANCEL": "  復原",
+		"SYS_HUD_GUIDE_PRO_SINGLE_PAK": "  單卡匣遊玩",
+		"SYS_HUD_GUIDE_PRO_MULTI_PAK": "  多卡匣遊玩",
+		"SYS_HUD_GUIDE_JOY_L_SINGLE_PAK": "  單卡匣遊玩",
+		"SYS_HUD_GUIDE_JOY_L_MULTI_PAK": "　多卡匣遊玩",
+		"SYS_HUD_GUIDE_JOY_R_SINGLE_PAK": "  單卡匣遊玩",
+		"SYS_HUD_GUIDE_JOY_R_MULTI_PAK": "　多卡匣遊玩",
+		"SYS_HUD_GUIDE_JOY_L_CONFIRM": "  確定",
+		"SYS_HUD_GUIDE_JOY_R_CONFIRM": "  確定",
+		"SYS_HUD_GUIDE_JOY_L_BACK": "  返回",
+		"SYS_HUD_GUIDE_JOY_R_BACK": "  返回",
+		"SYS_HUD_GUIDE_JOY_L_DETAILS": "  詳情",
+		"SYS_HUD_GUIDE_JOY_R_DETAILS": "  詳情",
+		"SYS_HUD_GUIDE_JOY_L_MOVE": "  移動",
+		"SYS_HUD_GUIDE_JOY_L_MOVE2": "  移動（長按則排序）",
+		"SYS_HUD_GUIDE_JOY_L_SORT": "  長按則排序",
+		"SYS_HUD_GUIDE_JOY_R_MOVE": "  移動",
+		"SYS_HUD_GUIDE_JOY_R_MOVE2": "  移動（長按則排序）",
+		"SYS_HUD_GUIDE_JOY_R_SORT": "  長按則排序",
+		"SYS_HUD_GUIDE_JOY_L_PLAY": "  開始",
+		"SYS_HUD_GUIDE_JOY_R_PLAY": "  開始",
+		"SYS_HUD_GUIDE_JOY_L_GUIDE": "  操作指南",
+		"SYS_HUD_GUIDE_JOY_R_GUIDE": "  操作指南",
+		"SYS_HUD_GUIDE_JOY_L_EXCHANGE": "  更換1P/2P",
+		"SYS_HUD_GUIDE_JOY_L_SWAP": "  更換1P",
+		"SYS_HUD_GUIDE_JOY_R_EXCHANGE": "  更換1P/2P",
+		"SYS_HUD_GUIDE_JOY_R_SWAP": "  更換1P",
+		"SYS_HUD_GUIDE_JOY_L_VOICE_CHAT": "  如何進行語音聊天？",
+		"SYS_HUD_GUIDE_JOY_R_VOICE_CHAT": "  如何進行語音聊天？",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE": " +   中斷選單",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE": " +   中斷選單",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_START": " +   START鍵",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_START": " +   START鍵",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_SELECT": " +   SELECT鍵",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_SELECT": " +   SELECT鍵",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_QUIT_ONLINE": " +   退出線上遊玩",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_QUIT_WIRELESS": " +   退出鄰近主機通訊",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_QUIT_ONLINE": " +   退出線上遊玩",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_QUIT_WIRELESS": " +   退出鄰近主機通訊",
+		"SYS_HUD_GUIDE_JOY_L_DETAILS_NEXT": "  繼續",
+		"SYS_HUD_GUIDE_JOY_R_DETAILS_NEXT": "  繼續",
+		"SYS_HUD_GUIDE_JOY_L_COMMIT": "  確定",
+		"SYS_HUD_GUIDE_JOY_R_COMMIT": "  確定",
+		"SYS_HUD_GUIDE_JOY_L_CANCEL": "  復原",
+		"SYS_HUD_GUIDE_JOY_R_CANCEL": "  復原",
+		"SYS_HUD_GUIDE_PRO_TOGGLE_SCREEN_SHARE": "  亮出／隱藏畫面",
+		"SYS_HUD_GUIDE_JOY_L_TOGGLE_SCREEN_SHARE": "  亮出／隱藏畫面",
+		"SYS_HUD_GUIDE_JOY_R_TOGGLE_SCREEN_SHARE": "  亮出／隱藏畫面",
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE_WITH_SCREENSHARE": " +   中斷選單（長按則亮出畫面）",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE_WITH_SCREENSHARE": " +   中斷選單（長按則亮出畫面）",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE_WITH_SCREENSHARE": " +   中斷選單（長按則亮出畫面）",
+		"SYS_INFO_NICKNAME_OWN": "",
+		"SYS_INFO_NICKNAME_PLAYER1": "",
+		"SYS_INFO_NICKNAME_PLAYER2": "",
+		"SYS_INFO_NICKNAME_PLAYER3": "",
+		"SYS_INFO_NICKNAME_PLAYER4": "",
+		"SYS_INFO_ROLE_PLAYER1": "1P",
+		"SYS_INFO_ROLE_PLAYER2": "2P",
+		"SYS_INFO_ROLE_PLAYER3": "3P",
+		"SYS_INFO_ROLE_PLAYER4": "4P",
+		"SYS_INFO_SESSION_PASSWORD": "",
+		"SYS_MENU_ROOT_ITEM_ONE_PLAYER": "單人遊玩",
+		"SYS_MENU_ROOT_ITEM_TWO_PLAYERS": "雙人遊玩",
+		"SYS_MENU_ROOT_ITEM_THREE_PLAYERS": "三人遊玩",
+		"SYS_MENU_ROOT_ITEM_FOUR_PLAYERS": "四人遊玩",
+		"SYS_MENU_ROOT_ITEM_LOCAL_PLAY": "多人遊玩",
+		"SYS_MENU_LOCAL_PLAY_SUBJECT": "多人遊玩",
+		"SYS_MENU_ROOT_ITEM_ONLINE_PLAY": "線上遊玩",
+		"SYS_MENU_ROOT_ITEM_WIRELESS_PLAY": "鄰近主機通訊遊玩",
+		"SYS_MENU_ROOT_ITEM_STOP_ONLINE_PLAY": "退出線上遊玩",
+		"SYS_MENU_ROOT_ITEM_STOP_WIRELESS_PLAY": "退出鄰近主機通訊",
+		"SYS_MENU_ROOT_ITEM_SETTINGS": "設定",
+		"SYS_MENU_ROOT_ITEM_INVITE": "邀請朋友",
+		"SYS_MENU_ROOT_SESSION_COUNTER": "",
+		"SYS_MENU_ONLINE_GUIDE_SUBJECT": "線上遊玩",
+		"SYS_MENU_ONLINE_GUIDE_DESC1": "＊可以在線上和朋友兩個人一起遊玩。\n\n＊可以先獨自遊玩並等待朋友上線。\n\n＊有智慧型手機應用程式「Nintendo Switch Online」\n　便可以使用語音聊天。",
+		"SYS_MENU_ONLINE_GUIDE_DESC1_SUP": "\n\n＊只能遊玩對應通訊遊玩的作品。",
+		"SYS_MENU_ONLINE_GUIDE_DESC1_4P": "＊可以在線上和朋友一起，最多四個人一起遊玩。\n\n＊可以先遊玩並等待朋友上線。\n\n＊有智慧型手機應用程式「Nintendo Switch Online」\n　便可以使用語音聊天。",
+		"SYS_MENU_ONLINE_GUIDE_DESC2_ONLINE_PLAY": "線上遊玩時不能使用「隨時隨地儲存」。\n請使用遊戲中的儲存資料遊玩。",
+		"SYS_MENU_ONLINE_GUIDE_DESC2_WIRELESS_PLAY": "鄰近主機通訊時不能使用「隨時隨地儲存」。\n請使用遊戲中的儲存資料遊玩。",
+		"SYS_MENU_WIRELESS_GUIDE_SUBJECT": "鄰近主機通訊遊玩",
+		"SYS_MENU_WIRELESS_GUIDE_DESC2": "． 可以兩個人一起用鄰近主機通訊遊玩。\n\n． 可以在等待人員的同時一個人遊玩。\n\n． 只能遊玩對應通訊遊玩的作品。",
+		"SYS_MENU_WIRELESS_GUIDE_DESC2_4P": "． 最多可以四個人一起用鄰近主機通訊遊玩。\n\n． 可以在等待人員的同時遊玩。\n\n． 只能遊玩對應通訊遊玩的作品。",
+		"SYS_MENU_ONLINE_ITEM_CREATE_SESSION": "遊玩並等待",
+		"SYS_MENU_ONLINE_ITEM_SESSION1": "",
+		"SYS_MENU_ONLINE_ITEM_SESSION2": "",
+		"SYS_MENU_ONLINE_ITEM_SESSION3": "",
+		"SYS_MENU_ONLINE_ITEM_SESSION4": "",
+		"SYS_MENU_ONLINE_ITEM_SESSION5": "",
+		"SYS_MENU_ONLINE_ITEM_SESSION6": "",
+		"SYS_MENU_ONLINE_ITEM_PLAYING": "正在遊玩",
+		"SYS_MENU_ONLINE_DESC_CREATE_SESSION": "獨自遊玩並等待朋友",
+		"SYS_MENU_WIRELESS_DESC_CREATE_SESSION": "獨自遊玩並等待人員",
+		"SYS_MENU_ONLINE_DESC_CREATE_SESSION_INVITE": "遊玩並等待朋友\n也可以邀請朋友",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST": "選擇要一起遊玩的朋友　 重新搜尋",
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST": "選擇要一起遊玩的人員　 重新搜尋",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_L": "選擇要一起遊玩的朋友　 重新搜尋",
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_JOY_L": "選擇要一起遊玩的人員　 重新搜尋",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_R": "選擇要一起遊玩的朋友　 重新搜尋",
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_JOY_R": "選擇要一起遊玩的人員　 重新搜尋",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_INVITE": "選擇要會合的朋友　 重新搜尋",
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_INVITE": "選擇要一起遊玩的人員　 重新搜尋",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_L_INVITE": "選擇要會合的朋友　 重新搜尋",
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_R_INVITE": "選擇要會合的朋友　 重新搜尋",
+		"SYS_MENU_ONLINE_NOTICE_NOT_FOUND": "沒有可以一起遊玩的朋友",
+		"SYS_MENU_WIRELESS_NOTICE_NOT_FOUND": "沒有可以一起遊玩的人員",
+		"SYS_MENU_ONLINE_NOTICE_NOT_FOUND_INVITE": "沒有一起遊玩的朋友",
+		"SYS_MENU_ONLINE_KEYBOARD_HEADER": "請輸入暗號（3位數）",
+		"SYS_MENU_ONLINE_KEYBOARD_GUIDE": "3位數的數字",
+		"SYS_MENU_SETTINGS_ITEM_4_3": "4:3",
+		"SYS_MENU_SETTINGS_ITEM_PIXEL_PERFECT": "原始比例",
+		"SYS_MENU_SETTINGS_ITEM_CRT": "映像管電視",
+		"SYS_MENU_SETTINGS_DESC_GAME_SCREEN": "遊戲畫面",
+		"SYS_MENU_SETTINGS_DESC_GUIDE_DISPLAY": "遊戲中的按鍵定義顯示",
+		"SYS_MENU_SETTINGS_ITEM_GUIDE_DISPLAY": "顯示",
+		"SYS_MENU_SETTINGS_ITEM_SCREEN_SIZE": "縮小顯示畫面",
+		"SYS_MENU_SETTINGS_ITEM_NOSTALGIC_MODE": "重現當時的氣氛",
+		"SYS_MENU_PAUSE_ITEM_CONTINUE": "繼續",
+		"SYS_MENU_PAUSE_ITEM_LOAD": "載入",
+		"SYS_MENU_PAUSE_ITEM_SAVE": "隨時隨地儲存",
+		"SYS_MENU_PAUSE_ITEM_RESET": "重置",
+		"SYS_MENU_PAUSE_ITEM_RETURN_TO_MENU": "返回選擇作品畫面",
+		"SYS_MENU_PAUSE_SWAPPLAYER_1": "",
+		"SYS_MENU_PAUSE_SWAPPLAYER_2": "",
+		"SYS_MENU_PAUSE_SWAPPLAYER_3": "",
+		"SYS_MENU_DETAILS_DESC_RELEASE_INFO": "　　年發售",
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_LONG_TIME": "遊玩人數：人　　遊玩時間：小時分鐘",
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_SHORT_TIME": "遊玩人數：人　　遊玩時間：分鐘",
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_NO_TIME": "遊玩人數：人",
+		"SYS_MENU_DETAIL_PAGE": " / ",
+		"SYS_MENU_SAVESLOT_NO_IMAGE": "No Data",
+		"SYS_MENU_SAVESLOT_ITEM_EMPTY": "儲存資料",
+		"SYS_MENU_SAVESLOT_ITEM_VALID": "儲存資料\n// :",
+		"SYS_MENU_SORT_INDEX": "●",
+		"SYS_MENU_SORT_INDEX_00": "〇",
+		"SYS_MENU_SPECIAL_EMBLEM": "SP",
+		"SYS_MENU_SPECIAL_TEXT": "SPECIAL",
+		"SYS_MENU_SPECIAL2_TEXT": "SPECIAL",
+		"SYS_MENU_NEW_GAME_TEXT": "NEW",
+		"SYS_MENU_FRIENDPRESENCE": "正在遊玩的遊戲：",
+		"SYS_MENU_WAITING_FOR_HOST_DESC": "對方正在遊玩遊戲。\n\n對方返回選擇作品畫面就能一起遊玩。\n請稍待。",
+		"SYS_MENU_MULTI_PLAYER_PRE_GUIDANCE_P1": "自己與對方會各自操作\n個別的遊戲畫面。",
+		"SYS_MENU_MULTI_PLAYER_PRE_GUIDANCE_P2": "在中斷選單可以查看\n各作品的通訊遊玩的開始方法。",
+		"SYS_MENU_INGAME_EXIT_QUERY_SUBJECT": "所有人選擇「是」就會返回選擇作品畫面。",
+		"SYS_MENU_INGAME_EXIT_QUERY_DESC_SRAM": "有人選擇「否」就會回到遊戲。\n（請在必須儲存時選擇「否」並儲存）",
+		"SYS_MENU_INGAME_SCREENSHOT_IS_HIDDEN": "已隱藏畫面。",
+		"SYS_MENU_PAUSE_ITEM_BATTLE_GUIDE": "通訊遊玩的開始方法",
+		"SYS_MENU_ONLINE_DESC_CREATE_SESSION_INVITE_HANDHELD": "建議您遊玩時併用語音聊天。\n也可以對朋友傳送邀請。",
+		"SYS_MENU_INGAME_PLAYER_SELF": "自己",
+		"SYS_MENU_INGAME_PLAYER_PARTNER": "對方",
+		"SYS_NOTIFICATION_QUIT_ONLINE_PLAY_TEXT": "已退出線上遊玩。",
+		"SYS_NOTIFICATION_QUIT_WIRELESS_PLAY_TEXT": "退出鄰近主機通訊。",
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT": "已與切斷通訊。\n將繼續遊玩並等待朋友。",
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT_WIRELESS": "已與切斷通訊。\n將繼續遊玩並等待人員。",
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT_GUEST": "已與切斷通訊。",
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING2_TEXT": "已與切斷通訊。",
+		"SYS_NOTIFICATION_UNSTABLE_NETWORK2_TEXT": "由於您與對方的通訊環境不佳，可能無法順暢遊玩。",
+		"SYS_NOTIFICATION_CONNECTED_CONTROLLER_NUM_1_TEXT": "連接的控制器已變成1個。",
+		"SYS_NOTIFICATION_CONNECTED_CONTROLLER_NUM_2_TEXT": "連接的控制器已變成2個。",
+		"SYS_NOTIFICATION_CONNECTED_CONTROLLER_NUM_3_TEXT": "連接的控制器已變成3個。",
+		"SYS_NOTIFICATION_CONNECTED_CONTROLLER_NUM_4_TEXT": "連接的控制器已變成4個。",
+		"SYS_NOTIFICATION_OPERATION_DENIED_TEXT": "正在操作。",
+		"SYS_NOTIFICATION_DENIED_MOVE_OPERATION_TEXT": "無法移動作品。\n必須將排序更改成「按喜愛順序」。",
+		"SYS_NOTIFICATION_PLAYER_ORDER_TEXT": "已經更改控制器的定義。",
+		"SYS_NOTIFICATION_SINGLE_PAK_TEXT": "對應單卡匣遊玩的作品才能遊玩。",
+		"SYS_NOTIFICATION_MULTI_PAK_TEXT": "已返回多卡匣遊玩。",
+		"SYS_POPUP_GUIDE_PRO_CONTROLLER_SELECT": "按鍵移動游標",
+		"SYS_POPUP_GUIDE_PRO_CONTROLLER_START": "按鍵開始遊戲",
+		"SYS_POPUP_GUIDE_JOY_L_CONTROLLER_SELECT": " + 移動游標",
+		"SYS_POPUP_GUIDE_JOY_L_CONTROLLER_START": " + 開始遊戲",
+		"SYS_POPUP_GUIDE_JOY_R_CONTROLLER_SELECT": " + 移動游標",
+		"SYS_POPUP_GUIDE_JOY_R_CONTROLLER_START": " + 開始遊戲",
+		"SYS_POPUP_GUIDE_PRO_PAUSE_MENU": " + 中斷遊戲",
+		"SYS_POPUP_GUIDE_JOY_L_PAUSE_MENU": " + 中斷遊戲",
+		"SYS_POPUP_GUIDE_JOY_R_PAUSE_MENU": " + 中斷遊戲",
+		"SYS_POPUP_GUIDE_PRO_SWAP_PLAYERS": "在中斷選單按鍵可更換1P/2P",
+		"SYS_POPUP_GUIDE_JOY_L_SWAP_PLAYERS": "在中斷選單按鍵可更換1P/2P",
+		"SYS_POPUP_GUIDE_JOY_R_SWAP_PLAYERS": "在中斷選單按鍵可更換1P/2P",
+		"SYS_POPUP_GUIDE_LARK_SWAP_PLAYERS": "要更換1P/2P請到中斷選單。",
+		"SYS_POPUP_GUIDE_4P_SWAP_PLAYERS": "要更換1P請到中斷選單。",
+		"SYS_POPUP_GUIDE_FINGER_CURSOR": "為手掌游標，按為拍手",
+		"SYS_POPUP_GUIDE_FINGER_CURSOR_02": "為手掌游標，按為拍手\n遊玩遊戲時無法使用",
+		"SYS_POPUP_GUIDE_PRO_REWIND": "失誤也沒有關係。長按 + 就會倒回。\n可以在看中的地方重來。",
+		"SYS_POPUP_GUIDE_JOY_L_REWIND": "失誤也沒有關係。長按 + 就會倒回。\n可以在看中的地方重來。",
+		"SYS_POPUP_GUIDE_JOY_R_REWIND": "失誤也沒有關係。長按 + 就會倒回。\n可以在看中的地方重來。",
+		"SYS_POPUP_GUIDE_PRO_SCREEN_SHARE": "長按 + 亮出畫面給對方。",
+		"SYS_POPUP_GUIDE_JOY_L_SCREEN_SHARE": "長按 + 亮出畫面給對方。",
+		"SYS_POPUP_GUIDE_JOY_R_SCREEN_SHARE": "長按 + 亮出畫面給對方。",
+		"SYS_NOTIFICATION_NEW_PLAYER_WAITING_TEXT": "請先返回選擇作品畫面才能和對方一起遊玩。",
+		"SYS_NOTIFICATION_MAY_SAVE_TEXT": "請在必須儲存時儲存。",
+		"SYS_NOTIFICATION_OPERATION_ON_TEXT": "由您操作。",
+		"SYS_NOTIFICATION_OPERATION_OFF_TEXT": "由對方操作。",
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE_WITH_REWIND": " +   中斷選單（長按則倒回）",
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE_WITH_REWIND": " +   中斷選單（長按則倒回）",
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE_WITH_REWIND": " +   中斷選單（長按則倒回）",
+		"SYS_SORT_ORDER_CUSTOM": "按喜愛順序",
+		"SYS_SORT_ORDER_RELEASE_DATE": "按發售日順序",
+		"SYS_SORT_ORDER_TITLE_NAME": "按作品名稱順序",
+		"SYS_SORT_ORDER_PUBLISHER": "按發行商順序",
+		"SYS_SORT_ORDER_2PLAYER_GAMES": "按2P同時遊玩順序",
+		"SYS_SORT_ORDER_DELIVERY_DATE": "按發布順序",
+		"SYS_SORT_ORDER_DESC_TEXT": "更改作品的排序方式",
+		"SYS_SORT_ORDER_NAME_CUSTOM": "按喜愛順序",
+		"SYS_SORT_ORDER_NAME_ALPHABETICAL": "按日語順序",
+		"SYS_SORT_ORDER_NAME_RELEASE_DATE": "按發售順序",
+		"SYS_SORT_ORDER_NAME_RECENTLY_PLAYED": "按遊玩先後順序",
+		"SYS_SORT_ORDER_NAME_PLAY_TIME": "按遊玩長度順序",
+		"SYS_SORT_HEADING_PLAY_TIME": "分鐘",
+		"SYS_SORT_HEADING_PLAY_TIME_2": "不到1分鐘",
+		"SYS_SORT_HEADING_DATE_PLAYED_1": "//",
+		"SYS_SORT_HEADING_DATE_PLAYED_2": "/",
+		"SYS_USER_GUIDE_CONTROLLER_A": "A",
+		"SYS_USER_GUIDE_CONTROLLER_B": "B",
+		"SYS_USER_GUIDE_CONTROLLER_X": "X",
+		"SYS_USER_GUIDE_CONTROLLER_Y": "Y",
+		"SYS_USER_GUIDE_CONTROLLER_L": "L",
+		"SYS_USER_GUIDE_CONTROLLER_R": "R",
+		"SYS_USER_GUIDE_CONTROLLER_DPAD": "十字鍵",
+		"SYS_USER_GUIDE_CONTROLLER_SELECT": "SELECT",
+		"SYS_USER_GUIDE_CONTROLLER__START": "START",
+		"SYS_USER_GUIDE_PRO_POINTER": "手掌游標\n（按下即拍手）\n※限線上遊玩時",
+		"SYS_USER_GUIDE_PRO_POINTER_01": "手掌游標\n（按下即拍手）\n※限通訊遊玩時",
+		"SYS_USER_GUIDE_JOY_L_COMBINATION": " +  SELECT     +  START",
+		"SYS_USER_GUIDE_JOY_R_COMBINATION": " +  SELECT     +  START",
+		"SYS_USER_GUIDE_PAUSE_MENU": "中斷選單",
+		"SYS_USER_GUIDE_SYSTEM_HOME": " HOME選單",
+		"SYS_USER_GUIDE_SYSTEM_CAPTURE": " 拍攝",
+		"SYS_USER_GUIDE_SYSTEM_CAPTURE2": "拍攝 ",
+		"SYS_CONNECT_GUIDE_TITLE_HEADING": "《》通訊遊玩的開始方法",
+		"SYS_CONNECT_GUIDE_SUPPLEMENT_01": "若連線失敗，請選擇「返回選擇作品畫面」重試一遍。",
+		"SYS_CONNECT_GUIDE_SUPPLEMENT_02": "遊玩時不妨使用智慧型手機應用程式「Nintendo Switch Online」等方式同時語音聊天。"
+	},
+	"exploded_strings": {
+		"SYS_DIALOG_GENERIC_BUTTON1": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "GENERIC_DIALOG_BUTTON1",
+				"format": "%s"
+			}
+		],
+		"SYS_DIALOG_GENERIC_BUTTON2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "GENERIC_DIALOG_BUTTON2",
+				"format": "%s"
+			}
+		],
+		"SYS_DIALOG_GENERIC_BUTTON3": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "GENERIC_DIALOG_BUTTON3",
+				"format": "%s"
+			}
+		],
+		"SYS_DIALOG_EXCHANGE_PLAYER_1P_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已經更換1P與2P。\n您成為了1P。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "繼續操作。"
+			}
+		],
+		"SYS_DIALOG_EXCHANGE_PLAYER_2P_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已經更換1P與2P。\n您成為了2P。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "繼續操作。"
+			}
+		],
+		"SYS_DIALOG_SWAP_PLAYER_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "NEW_1P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "成為了1P。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "繼續操作。"
+			}
+		],
+		"SYS_DIALOG_SWAP_PLAYER_TEXT_LONG": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "NEW_1P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "成為了1P。\n您成為了"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SELF_EMU_INDEX",
+				"format": "%d"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "P。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "繼續操作。"
+			}
+		],
+		"SYS_DIALOG_ONLINE_CREATE_SESSION_WITH_PASSWORD": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_LOCK",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 有暗號"
+			}
+		],
+		"SYS_DIALOG_ONLINE_WAITING_FOR_GUEST_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "JOINNER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "會合。"
+			}
+		],
+		"SYS_DIALOG_ONLINE_WAITING_FOR_HOST_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "會合。\n（不會更改您的儲存資料）"
+			}
+		],
+		"SYS_DIALOG_ONLINE_WAITING_FOR_HOST_USESRAM_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "會合。"
+			}
+		],
+		"SYS_DIALOG_ONLINE_ESTABLISHED_HOST_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "JOINNER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "過來遊玩了。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "操作。\n通訊品質依據您與對方的通訊環境而定。"
+			}
+		],
+		"SYS_DIALOG_ONLINE_ESTABLISHED_GUEST_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "您來到"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "的地方遊玩。\n選單將由"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "操作。\n通訊品質依據您與對方的通訊環境而定。"
+			}
+		],
+		"SYS_DIALOG_DURING_GUEST_OPERATION_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "OWNER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在操作。"
+			}
+		],
+		"SYS_DIALOG_DURING_HOST_OPERATION_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在操作。"
+			}
+		],
+		"SYS_DIALOG_LAUNCHING_ANOTHER_ONE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "2P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "的主機要啟動其他作品。\n（請"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "2P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "操作）"
+			}
+		],
+		"SYS_DIALOG_LAUNCHING_OTHERS_ONE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "2P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "的主機要啟動哪個作品？\n（請"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "2P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "操作）"
+			}
+		],
+		"SYS_DIALOG_LAUNCHING_OTHERS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "1P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "之外的主機要啟動哪個作品？\n（請"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "2P_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "操作）"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_CONFIRM": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_A",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_BACK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_B",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  返回"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_DETAILS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_X",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  詳情"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_MOVE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_MOVE2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動（長按則排序）"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_SORT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  長按則排序"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_PLAY": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_A",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  開始"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_GUIDE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_X",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  操作指南"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_EXCHANGE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P/2P"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_SWAP": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_VOICE_CHAT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_X",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  如何語音聊天？"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_START": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  START鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  SELECT鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_QUIT_ONLINE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出線上遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_QUIT_WIRELESS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出鄰近主機通訊"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_DETAILES_NEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_A",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  繼續"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_COMMIT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_CANCEL": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_B",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  復原"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_SINGLE_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  單卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_MULTI_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  多卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_SINGLE_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  單卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_MULTI_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "　多卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_SINGLE_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  單卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_MULTI_PAK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "　多卡匣遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_CONFIRM": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_CONFIRM": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_BACK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_D",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  返回"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_BACK": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_D",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  返回"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_DETAILS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  詳情"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_DETAILS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  詳情"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_MOVE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_MOVE2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動（長按則排序）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_SORT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  長按則排序"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_MOVE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_MOVE2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  移動（長按則排序）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_SORT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  長按則排序"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_PLAY": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  開始"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_PLAY": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  開始"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_GUIDE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  操作指南"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_GUIDE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  操作指南"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_EXCHANGE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P/2P"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_SWAP": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_EXCHANGE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P/2P"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_SWAP": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  更換1P"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_VOICE_CHAT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  如何進行語音聊天？"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_VOICE_CHAT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_U",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  如何進行語音聊天？"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_START": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  START鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_START": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  START鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  SELECT鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  SELECT鍵"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_QUIT_ONLINE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出線上遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_QUIT_WIRELESS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出鄰近主機通訊"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_QUIT_ONLINE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出線上遊玩"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_QUIT_WIRELESS": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  退出鄰近主機通訊"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_DETAILS_NEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  繼續"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_DETAILS_NEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  繼續"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_COMMIT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_COMMIT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  確定"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_CANCEL": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_D",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  復原"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_CANCEL": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_D",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  復原"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_TOGGLE_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_A",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  亮出／隱藏畫面"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_TOGGLE_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  亮出／隱藏畫面"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_TOGGLE_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  亮出／隱藏畫面"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE_WITH_SCREENSHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則亮出畫面）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE_WITH_SCREENSHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則亮出畫面）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE_WITH_SCREENSHARE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則亮出畫面）"
+			}
+		],
+		"SYS_INFO_NICKNAME_OWN": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "OWN_NAME",
+				"format": "%s"
+			}
+		],
+		"SYS_INFO_NICKNAME_PLAYER1": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			}
+		],
+		"SYS_INFO_NICKNAME_PLAYER2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER2_NAME",
+				"format": "%s"
+			}
+		],
+		"SYS_INFO_NICKNAME_PLAYER3": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER3_NAME",
+				"format": "%s"
+			}
+		],
+		"SYS_INFO_NICKNAME_PLAYER4": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER4_NAME",
+				"format": "%s"
+			}
+		],
+		"SYS_INFO_SESSION_PASSWORD": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PASSWORD",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ROOT_SESSION_COUNTER": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "NUMBER_OF_SESSIONS",
+				"format": "%d"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION1": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM1",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM2",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION3": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM3",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION4": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM4",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION5": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM5",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_ITEM_SESSION6": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "ROOM6",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的人員　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_L": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_JOY_L": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的人員　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_R": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_JOY_R": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的人員　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_INVITE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要會合的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_WIRELESS_DESC_SESSION_LIST_INVITE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要一起遊玩的人員　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_L_INVITE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要會合的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_ONLINE_DESC_SESSION_LIST_JOY_R_INVITE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "選擇要會合的朋友　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 重新搜尋"
+			}
+		],
+		"SYS_MENU_PAUSE_SWAPPLAYER_1": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SWAP_PLAYER_NAME_1",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_PAUSE_SWAPPLAYER_2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SWAP_PLAYER_NAME_2",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_PAUSE_SWAPPLAYER_3": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SWAP_PLAYER_NAME_3",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_DETAILS_DESC_RELEASE_INFO": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_COMPANY",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "　　"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_RELEASE_YEAR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "年發售"
+			}
+		],
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_LONG_TIME": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "遊玩人數："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYERS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "人　　遊玩時間："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYTIME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "小時"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYTIME_MIN",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "分鐘"
+			}
+		],
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_SHORT_TIME": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "遊玩人數："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYERS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "人　　遊玩時間："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYTIME_MIN",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "分鐘"
+			}
+		],
+		"SYS_MENU_DETAILS_DESC_PLAY_INFO_NO_TIME": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "遊玩人數："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAILED_PLAYERS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "人"
+			}
+		],
+		"SYS_MENU_DETAIL_PAGE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAIL_NOW_PAGE",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " / "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DETAIL_ALL_PAGE",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_SAVESLOT_ITEM_EMPTY": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "儲存資料"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_INDEX",
+				"format": "%d"
+			}
+		],
+		"SYS_MENU_SAVESLOT_ITEM_VALID": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "儲存資料"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_INDEX",
+				"format": "%d"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "\n"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_YEAR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "/"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_MONTH",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "/"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_DAY",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_HOUR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": ":"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "SAVE_MINUTE",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_SPECIAL2_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "SPECIAL"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "NUMBER",
+				"format": "%s"
+			}
+		],
+		"SYS_MENU_FRIENDPRESENCE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在遊玩的遊戲："
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "FRIENDPRESENCE_TITLENAME",
+				"format": "%s"
+			}
+		],
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "LEAVER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "切斷通訊。\n將繼續遊玩並等待朋友。"
+			}
+		],
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT_WIRELESS": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "LEAVER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "切斷通訊。\n將繼續遊玩並等待人員。"
+			}
+		],
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING_TEXT_GUEST": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "LEAVER_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "切斷通訊。"
+			}
+		],
+		"SYS_NOTIFICATION_OTHER_PLAYER_MISSING2_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "已與"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "切斷通訊。"
+			}
+		],
+		"SYS_NOTIFICATION_OPERATION_DENIED_TEXT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "PLAYER1_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "正在操作。"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_CONTROLLER_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "鍵移動游標"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_CONTROLLER_START": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "鍵開始遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_CONTROLLER_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "移動游標"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_CONTROLLER_START": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "開始遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_CONTROLLER_SELECT": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "移動游標"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_CONTROLLER_START": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "開始遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_PAUSE_MENU": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "中斷遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_PAUSE_MENU": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "中斷遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_PAUSE_MENU": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "中斷遊戲"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_SWAP_PLAYERS": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "在中斷選單按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_Y",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "鍵可更換1P/2P"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_SWAP_PLAYERS": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "在中斷選單按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "鍵可更換1P/2P"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_SWAP_PLAYERS": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "在中斷選單按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CLOVER_L",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "鍵可更換1P/2P"
+			}
+		],
+		"SYS_POPUP_GUIDE_FINGER_CURSOR": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_GAMEPAD_STICK_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "為手掌游標，按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_STICK_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "為拍手"
+			}
+		],
+		"SYS_POPUP_GUIDE_FINGER_CURSOR_02": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_GAMEPAD_STICK_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "為手掌游標，按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_STICK_R",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "為拍手\n遊玩遊戲時無法使用"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "失誤也沒有關係。長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "就會倒回。\n可以在看中的地方重來。"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "失誤也沒有關係。長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "就會倒回。\n可以在看中的地方重來。"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "失誤也沒有關係。長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "就會倒回。\n可以在看中的地方重來。"
+			}
+		],
+		"SYS_POPUP_GUIDE_PRO_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "亮出畫面給對方。"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_L_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "亮出畫面給對方。"
+			}
+		],
+		"SYS_POPUP_GUIDE_JOY_R_SCREEN_SHARE": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "長按"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "亮出畫面給對方。"
+			}
+		],
+		"SYS_HUD_GUIDE_PRO_INGAME_PAUSE_WITH_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則倒回）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_L_INGAME_PAUSE_WITH_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則倒回）"
+			}
+		],
+		"SYS_HUD_GUIDE_JOY_R_INGAME_PAUSE_WITH_REWIND": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_ZR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "  中斷選單（長按則倒回）"
+			}
+		],
+		"SYS_SORT_HEADING_PLAY_TIME": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "VALUE",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "分鐘"
+			}
+		],
+		"SYS_SORT_HEADING_DATE_PLAYED_1": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "YEAR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "/"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "MONTH",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "/"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DAY",
+				"format": "%s"
+			}
+		],
+		"SYS_SORT_HEADING_DATE_PLAYED_2": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "MONTH",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "/"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "DAY",
+				"format": "%s"
+			}
+		],
+		"SYS_USER_GUIDE_JOY_L_COMBINATION": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " SELECT    "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_MINUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " START"
+			}
+		],
+		"SYS_USER_GUIDE_JOY_R_COMBINATION": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SL",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " SELECT    "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_PLUS",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " + "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_SR",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " START"
+			}
+		],
+		"SYS_USER_GUIDE_SYSTEM_HOME": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_HOME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " HOME選單"
+			}
+		],
+		"SYS_USER_GUIDE_SYSTEM_CAPTURE": [
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CAPTURE",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": " 拍攝"
+			}
+		],
+		"SYS_USER_GUIDE_SYSTEM_CAPTURE2": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "拍攝 "
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "IMG_BUTTON_CAPTURE",
+				"format": "%s"
+			}
+		],
+		"SYS_CONNECT_GUIDE_TITLE_HEADING": [
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "《"
+			},
+			{
+				"type": "TEXT_PART_TYPE_VARIABLE",
+				"name": "LOCALE_TITLE_NAME",
+				"format": "%s"
+			},
+			{
+				"type": "TEXT_PART_TYPE_TEXT",
+				"value": "》通訊遊玩的開始方法"
+			}
+		]
+	}
+}

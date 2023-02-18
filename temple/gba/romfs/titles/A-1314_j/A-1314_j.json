@@ -1,0 +1,31 @@
+{
+	"titles": {
+		"copyright": "©1992,2001 Nintendo Game",
+		"lcla6_release_date": "2023-02-01",
+		"players_count": 4,
+		"publisher": "任天堂",
+		"release_date": "2001-07-21",
+		"rewind_interval": 1.5,
+		"save_count": 1,
+		"simultaneous": false,
+		"sort_publisher": "任天堂",
+		"sort_title": "任天堂游戏",
+		"title": "任天堂ゲーム",
+		"title_ko": "닌텐도 게임",
+		"title_zhHans": "任天堂游戏",
+		"title_zhHant": "任天堂遊戲",
+		"display_version":"v1.0.0",
+		"volume": 100
+	},
+	"strings": {
+		"META_TITLE_COMMENT_JA": "ゲーム紹介。",
+		"META_TITLE_COMMENT_SC": "游戏简介。",
+		"META_TITLE_COMMENT_TC": "遊戲簡介。",
+		"META_TITLE_CONNECT_GUIDE_01_JA": "ステップ1",
+		"META_TITLE_CONNECT_GUIDE_01_SC": "步骤1",
+		"META_TITLE_CONNECT_GUIDE_01_TC": "步驟1",
+		"META_TITLE_ONECARTRIDGE_GUIDE_01_JA": "ステップ1",
+		"META_TITLE_ONECARTRIDGE_GUIDE_01_SC": "步骤1",
+		"META_TITLE_ONECARTRIDGE_GUIDE_01_TC": "步驟1"
+	}
+}
