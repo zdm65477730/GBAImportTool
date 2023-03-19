@@ -1,9 +1,19 @@
-#include <filesystem>
+﻿#include <filesystem>
 #include <vector>
 #include <string>
 #include <fstream>
 #include <iostream>
 #include "json.hpp"
+
+#if defined(WIN32) || defined(_WIN32) || defined(WIN64) || defined(_WIN64) || defined(__WIN64) || defined(__WIN32) && !defined(__CYGWIN__)
+#define PATH_SEPARATOR "\\"
+#define WIN
+#else
+#define PATH_SEPARATOR "/"
+#endif
+
+constexpr const char* ROMFS_RESOURCE_STRINGS_PATH = PATH_SEPARATOR "romfs" PATH_SEPARATOR "bootapp" PATH_SEPARATOR "resources" PATH_SEPARATOR "strings" PATH_SEPARATOR;
+constexpr const char* ROMFS_TITLES_PATH = PATH_SEPARATOR "romfs" PATH_SEPARATOR "titles";
 
 void replace_all_str(std::string& inout, std::string_view what, std::string_view with)
 {
@@ -13,11 +23,11 @@ void replace_all_str(std::string& inout, std::string_view what, std::string_view
 }
 
 void create_strings_json(std::string lang_folder, std::string hw_type_folder, nlohmann::json& stringsJson) {
-    std::string stringsPath = hw_type_folder + "/romfs/bootapp/resources/strings/" + lang_folder;
+    std::string stringsPath = hw_type_folder + ROMFS_RESOURCE_STRINGS_PATH + lang_folder;
     if (!std::filesystem::exists(stringsPath))
         std::filesystem::create_directories(stringsPath);
 
-    std::string defaultJsonStrPath = "temple/" + hw_type_folder + "/romfs/bootapp/resources/strings/" + lang_folder + "/strings.lng";
+    std::string defaultJsonStrPath = "temple" PATH_SEPARATOR + hw_type_folder + ROMFS_RESOURCE_STRINGS_PATH + lang_folder + PATH_SEPARATOR "strings.lng";
     if (std::filesystem::exists(defaultJsonStrPath)) {
         try {
             std::ifstream ifs(defaultJsonStrPath);
@@ -35,10 +45,10 @@ void create_db(std::string hw_type_folder) {
     create_strings_json("zh-hans", hw_type_folder, js_strings_sc);
     create_strings_json("zh-hant", hw_type_folder, js_strings_tc);
 
-    if (!std::filesystem::exists(hw_type_folder + "/romfs/titles"))
-        std::filesystem::create_directories(hw_type_folder + "/romfs/titles");
+    if (!std::filesystem::exists(hw_type_folder + ROMFS_TITLES_PATH))
+        std::filesystem::create_directories(hw_type_folder + ROMFS_TITLES_PATH);
 
-    for (auto const& dir_entry : std::filesystem::directory_iterator(hw_type_folder + "/romfs/titles")) {
+    for (auto const& dir_entry : std::filesystem::directory_iterator(hw_type_folder + ROMFS_TITLES_PATH)) {
         std::error_code err;
         auto entry_status = std::filesystem::status(dir_entry.path(), err);
         if (err) continue;
@@ -47,7 +57,7 @@ void create_db(std::string hw_type_folder) {
         std::cout << "当前处理title目录：" << dir_entry.path().string() << std::endl;
         if (std::filesystem::is_directory(entry_status)) {
             std::string code = dir_entry.path().filename().string();
-            std::string infoJsonPath = dir_entry.path().string() + "/" + (code + ".json");
+            std::string infoJsonPath = dir_entry.path().string() + PATH_SEPARATOR + (code + ".json");
             if (std::filesystem::exists(infoJsonPath)) {
                 std::cout << "当前Title目录json文件存在，处理：" << infoJsonPath << std::endl;
                 try {
@@ -113,7 +123,7 @@ void create_db(std::string hw_type_folder) {
 
             js_item["titles"]["code"] = code;
 
-            if (std::filesystem::exists(dir_entry.path().string() + "/" + code + ".png")) {
+            if (std::filesystem::exists(dir_entry.path().string() + PATH_SEPARATOR + code + ".png")) {
                 js_item["titles"]["cover"] = "/titles/" + code + "/" + code + ".png";
                 std::string metaTitleCommentString = "META_TITLE_COMMENT_" + code;
                 replace_all_str(metaTitleCommentString, "-", "_");
@@ -128,27 +138,27 @@ void create_db(std::string hw_type_folder) {
                 }
             }
 
-            if (std::filesystem::exists(dir_entry.path().string() + "/" + code + "-details.png"))
+            if (std::filesystem::exists(dir_entry.path().string() + PATH_SEPARATOR + code + "-details.png"))
                 js_item["titles"]["details_screen"] = "/titles/" + code + "/" + code + "-details.png";
 
             if (hw_type_folder == "gba") {
-                if (std::filesystem::exists(dir_entry.path().string() + "/" + code + ".gba")) {
+                if (std::filesystem::exists(dir_entry.path().string() + PATH_SEPARATOR + code + ".gba")) {
                     js_item["titles"]["rom"] = "/titles/" + code + "/" + code + ".gba";
                 }
                 else {
-                    std::cout << "错误！GBA游戏Rom: " << dir_entry.path().string() + "/" + code + ".gba未找到！" << std::endl;
+                    std::cout << "错误！GBA游戏Rom: " << dir_entry.path().string() + PATH_SEPARATOR + code + ".gba未找到！" << std::endl;
                     return;
                 }
             }
             else if (hw_type_folder == "gb") {
-                if (std::filesystem::exists(dir_entry.path().string() + "/" + code + ".gb")) {
+                if (std::filesystem::exists(dir_entry.path().string() + PATH_SEPARATOR + code + ".gb")) {
                     js_item["titles"]["rom"] = "/titles/" + code + "/" + code + ".gb";
                 }
-                else if (std::filesystem::exists(dir_entry.path().string() + "/" + code + ".gbc")) {
+                else if (std::filesystem::exists(dir_entry.path().string() + PATH_SEPARATOR + code + ".gbc")) {
                     js_item["titles"]["rom"] = "/titles/" + code + "/" + code + ".gbc";
                 }
                 else {
-                    std::cout << "错误！GB/GBC游戏Rom: " << dir_entry.path().string() + "/" + code + ".gb*未找到！" << std::endl;
+                    std::cout << "错误！GB/GBC游戏Rom: " << dir_entry.path().string() + PATH_SEPARATOR + code + ".gb*未找到！" << std::endl;
                     return;
                 }
             }
@@ -216,7 +226,7 @@ void create_db(std::string hw_type_folder) {
         std::cout << "------------------------------------" << std::endl;
     }
 
-    std::string gameJsonPath = hw_type_folder + "/romfs/titles/lclassics.titlesdb";
+    std::string gameJsonPath = hw_type_folder + ROMFS_TITLES_PATH + PATH_SEPARATOR "lclassics.titlesdb";
     try {
         std::ofstream ofs(gameJsonPath);
         ofs << game_data;
@@ -227,11 +237,11 @@ void create_db(std::string hw_type_folder) {
     game_strings_sc["strings"] = js_strings_sc["strings"];
     game_strings_tc["strings"] = js_strings_tc["strings"];
     try {
-        std::ofstream ofs_ja(hw_type_folder + "/romfs/bootapp/resources/strings/ja/strings.lng");
+        std::ofstream ofs_ja(hw_type_folder + ROMFS_RESOURCE_STRINGS_PATH + "ja" PATH_SEPARATOR "strings.lng");
         ofs_ja << game_strings_ja;
-        std::ofstream ofs_sc(hw_type_folder + "/romfs/bootapp/resources/strings/zh-hans/strings.lng");
+        std::ofstream ofs_sc(hw_type_folder + ROMFS_RESOURCE_STRINGS_PATH + "zh-hans" PATH_SEPARATOR "strings.lng");
         ofs_sc << game_strings_sc;
-        std::ofstream ofs_tc(hw_type_folder + "/romfs/bootapp/resources/strings/zh-hant/strings.lng");
+        std::ofstream ofs_tc(hw_type_folder + ROMFS_RESOURCE_STRINGS_PATH + "zh-hant" PATH_SEPARATOR "strings.lng");
         ofs_tc << game_strings_tc;
     }
     catch (std::exception&) {}
@@ -240,20 +250,32 @@ void create_db(std::string hw_type_folder) {
 int main(int argc, char** argv) {
     if (!std::filesystem::exists("temple")) {
         std::cout << "错误！当前目录下模板文件夹temple不存在！请重新拷贝应用程序并重试！" << std::endl;
+#ifdef WIN
+        getchar();
+#endif
         return -1;
     } else if (!std::filesystem::exists("gb") || !std::filesystem::exists("gba")) {
         std::cout << "错误！当前目录下gb或gba工作文件夹不存在！请创建工作目录并参考temple文件夹放入相应文件后重试！" << std::endl;
+#ifdef WIN
+        getchar();
+#endif
         return -2;
     }
 
-    if (!std::filesystem::exists("gba/romfs"))
-        std::filesystem::create_directories("gba/romfs");
+    if (!std::filesystem::exists("gba" PATH_SEPARATOR "romfs"))
+        std::filesystem::create_directories("gba" PATH_SEPARATOR "romfs");
     create_db("gba");
 
-    if (!std::filesystem::exists("gb/romfs"))
-        std::filesystem::create_directories("gb/romfs");
+    if (!std::filesystem::exists("gb" PATH_SEPARATOR "romfs"))
+        std::filesystem::create_directories("gb" PATH_SEPARATOR "romfs");
     create_db("gb");
 
+ #ifdef WIN
+    std::cout << "处理完成！按任意键退出！" << std::endl;
+    getchar();
+#else
     std::cout << "处理完成！" << std::endl;
+#endif
+
     return 0;
 }
